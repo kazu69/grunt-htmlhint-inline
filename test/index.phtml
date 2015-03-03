@@ -1,0 +1,29 @@
+<?php
+ecoh 'test';
+?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TEST</title>
+    <script>
+    var a, b, c;
+    <?php if(true): ?>
+        var test = 'test';
+    <?prp endif: ?>
+    console.log(test);
+    </script>
+</head>
+<body>
+    <p>hoge</p>
+    <ul id="test">
+    <?php foreach($array as $val): ?>
+        <li class='item'>
+            <a onlick="void(0);" href="<?php echo 'https://github.com'; ?>">github</a>
+        </li>
+    <?php endforeach; ?>
+    </ul>
+
+    <small>hogemoge</small>
+</body>
+</html>

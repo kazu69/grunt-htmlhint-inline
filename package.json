@@ -1,0 +1,54 @@
+{
+  "name": "grunt-htmlhint-inline",
+  "description": "Grunt plugin for linting inline html",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kazu69/grunt-htmlhint-inline",
+  "main": "tasks/htmlhint-inline.js",
+  "author": {
+    "name": "kazu69",
+    "email": "kazu.69.web+grunt@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kazu69/grunt-htmlhint-inline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kazu69/grunt-htmlhint-inline/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kazu69/grunt-htmlhint-inline/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "htmlhint": "^0.9.6",
+    "tempfile": "^1.1.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "lint",
+    "htmlhint",
+    "inline",
+    "grunt"
+  ],
+  "maintainers": [
+    {
+      "name": "kazu69",
+      "email": "kazu.69.web+grunt@gmail.com"
+    }
+  ]
+}
