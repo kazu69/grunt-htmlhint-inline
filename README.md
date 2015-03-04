@@ -1,6 +1,7 @@
 # grunt-htmlhint-inline
 
-> Grunt task for linting inline html
+This plug-in template files of view ( for example ```.erb``` , etc.) or , you can linting using [htmlhint](https://github.com/yaniswang/HTMLHint) the html of the old type of ```php``` (view and logic are not separated ).
+Removes the specific embedded code , it is intended to run the htmlhint as pure html.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
