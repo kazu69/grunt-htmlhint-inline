@@ -58,7 +58,7 @@ module.exports = function (grunt) {
       });
     }
 
-    var tempFiles = lintinline.wrapReporter(options, this.filesSrc, ignore, patterns),
+    var tempFiles = lintinline.lint(options, this.filesSrc, ignore, patterns),
         tempFilesLength = Object.keys(tempFiles).length,
         hintCount = 0, eachCount = 0;
 
