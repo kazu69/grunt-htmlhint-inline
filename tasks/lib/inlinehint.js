@@ -74,7 +74,7 @@ function createTemporaryFiles(files, ignores, patterns) {
   return map;
 }
 
-exports.wrapReporter = function wrapReporter(options, files, ignores, patterns) {
+exports.lint = function lint(options, files, ignores, patterns) {
   var mapTemporary = createTemporaryFiles(files, ignores, patterns || []);
   return mapTemporary;
 };
