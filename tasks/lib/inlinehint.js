@@ -12,7 +12,7 @@ var grunt = require('grunt'),
     fs = require('fs'),
     tempfile = require('tempfile');
 
-function escape(string) {
+var escape = function(string) {
   return string.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
 }
 
@@ -58,23 +58,23 @@ function removePatterns(src, patterns) {
 }
 
 function createTemporaryFiles(files, ignores, patterns) {
-  var map = {};
-  files.forEach(function (filepath, index) {
-    var source = grunt.file.read(filepath);
+  var temp = {};
 
-    source = removeTags(source, ignores);
-    source = removePatterns(source, patterns);
+  files.forEach(function (filepath, index) {
+    var source = grunt.file.read(filepath),
+        tempFile = tempfile();
+
+    if(ignores) source = removeTags(source, ignores);
+    if(patterns) source = removePatterns(source, patterns);
 
     if (/^\s*$/.test(source)) return;
 
-    var file = tempfile();
-    fs.writeFileSync(file, source);
-    map[file] = { filepath: filepath, file: { path: file } }
+    fs.writeFileSync(tempFile, source);
+    temp[tempFile] = { filepath: filepath, file: { path: tempFile } }
   });
-  return map;
+  return temp;
 }
 
 exports.lint = function lint(options, files, ignores, patterns) {
-  var mapTemporary = createTemporaryFiles(files, ignores, patterns || []);
-  return mapTemporary;
+  return createTemporaryFiles(files, ignores, patterns || []);
 };
