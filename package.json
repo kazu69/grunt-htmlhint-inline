@@ -17,7 +17,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/kazu69/grunt-htmlhint-inline/blob/master/LICENSE-MIT"
+      "url": "https://github.com/kazu69/grunt-htmlhint-inline/blob/master/LICENSE"
     }
   ],
   "engines": {
