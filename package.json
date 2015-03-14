@@ -48,20 +48,5 @@
     {
       "name": "kazu69"
     }
-  ],
-  "gitHead": "4dced93d3ed7181605afd4dfbcdbd342b4a83a56",
-  "_id": "grunt-htmlhint-inline@0.1.1",
-  "_shasum": "bf9da01164fc5c7a2e0b118602fe513054b10562",
-  "_from": "grunt-htmlhint-inline@*",
-  "_npmVersion": "2.6.1",
-  "_nodeVersion": "0.12.0",
-  "_npmUser": {
-    "name": "kazu69"
-  },
-  "dist": {
-    "shasum": "bf9da01164fc5c7a2e0b118602fe513054b10562",
-    "tarball": "http://registry.npmjs.org/grunt-htmlhint-inline/-/grunt-htmlhint-inline-0.1.1.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/grunt-htmlhint-inline/-/grunt-htmlhint-inline-0.1.1.tgz"
+  ]
 }
