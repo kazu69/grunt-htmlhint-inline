@@ -37,7 +37,7 @@ function removeTags(src, ignores) {
           lines[i] = '';
         }
         else if(stops) {
-          lines[i] = '';
+          if(tagSection) { lines[i] = ''; }
           tagSection = false;
         }
 
@@ -66,7 +66,6 @@ function createTemporaryFiles(files, ignores, patterns) {
 
     if(ignores) source = removeTags(source, ignores);
     if(patterns) source = removePatterns(source, patterns);
-
     if (/^\s*$/.test(source)) return;
 
     fs.writeFileSync(tempFile, source);
