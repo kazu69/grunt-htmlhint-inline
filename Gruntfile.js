@@ -31,8 +31,7 @@ module.exports = function(grunt) {
             match: /hoge/g,
             replacement: 'fuga'
           }
-        ],
-        reporterOutput: './log/grunt.log',
+        ]
       },
       dest: {
         src: ['./test/*.phtml']
