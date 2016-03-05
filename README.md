@@ -1,6 +1,8 @@
 grunt-htmlhint-inline
 ================
 
+[![Build Status](https://drone.io/github.com/kazu69/grunt-htmlhint-inline/status.png)](https://drone.io/github.com/kazu69/grunt-htmlhint-inline/latest)
+
 [![NPM](https://nodei.co/npm/grunt-htmlhint-inline.png)](https://nodei.co/npm/grunt-htmlhint-inline/)
 
 This plug-in template files of view ( for example ```.erb``` , etc.) or , you can linting using [htmlhint](https://github.com/yaniswang/HTMLHint) the html of the old type of ```php``` (view and logic are not separated ).
