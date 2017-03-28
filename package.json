@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "htmlhint": "^0.9.12",
-    "tempfile": "^1.1.1"
+    "tempfile": "^2.0.0"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
