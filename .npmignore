@@ -1,0 +1,7 @@
+.travis.yml
+.jshintrc
+.gitignore
+.git/
+.npmignore
+node_modules/
+log/
