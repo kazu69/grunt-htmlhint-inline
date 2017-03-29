@@ -1,7 +1,7 @@
 grunt-htmlhint-inline
 ================
 
-[![Build Status](https://drone.io/github.com/kazu69/grunt-htmlhint-inline/status.png)](https://drone.io/github.com/kazu69/grunt-htmlhint-inline/latest)
+[![Build Status](https://travis-ci.org/kazu69/grunt-htmlhint-inline.svg?branch=master)](https://travis-ci.org/kazu69/grunt-htmlhint-inline)
 
 [![NPM](https://nodei.co/npm/grunt-htmlhint-inline.png)](https://nodei.co/npm/grunt-htmlhint-inline/)
 
