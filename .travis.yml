@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - '7'
+  - '6'
+  - '5'
+  - '4'
+install:
+  - npm install -g yarn
+  - yarn install
+  - yarn check --integrity
+cache:
+  yarn: true
+  directories:
+    - node_modules
