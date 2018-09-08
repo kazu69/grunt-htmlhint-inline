@@ -1,7 +1,7 @@
 {
   "name": "grunt-htmlhint-inline",
   "description": "Grunt plugin for linting inline html",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "homepage": "https://github.com/kazu69/grunt-htmlhint-inline",
   "main": "tasks/htmlhint-inline.js",
   "author": {
@@ -22,7 +22,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "htmlhint": "^0.9.12",
+    "htmlhint": "^0.10.1",
     "tempfile": "^2.0.0"
   },
   "devDependencies": {
